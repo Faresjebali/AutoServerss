@@ -1,0 +1,9 @@
+let args = message.content.split(" ").slice(1).join(' ');
+    client.users.get(ownerID).send(
+        "\n" + "**" + "● Server :" + "**" +
+        "\n" + "__" + "» " + message.guild.name + "__" +
+        "\n" + "**" + " ● Sender : " + "**" +
+        "\n" + "__" + "» " + message.author.tag + "__" +
+        "\n" + "**" + " ● Message : " + "**" +
+        "\n" + "__" + args + "__")
+    }ct

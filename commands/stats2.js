@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
             },
             {
                 name: "System memory usage:",
-                value: `${Math.ceil((os.totalmem() - os.freemem()) / 1000000)} of ${Math.ceil(os.totalmem() / 1000000)} MB`,
+                value: `**[ ${(process.memoryUsage().rss / 1048576).toFixed()}MB ]**`,
                 inline: true
             },
             {

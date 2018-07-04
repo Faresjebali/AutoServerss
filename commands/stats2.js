@@ -48,7 +48,7 @@ module.exports.run = async (bot, message, args) => {
                 fields: embed_fields
             }
         });
-}
+
 
 message.channel.send(embed_fields);
 
